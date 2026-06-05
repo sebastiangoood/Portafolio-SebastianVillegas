@@ -54,6 +54,7 @@ nav a:hover {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    overflow: auto;
 }
 
 #sobre-mi {
@@ -78,6 +79,7 @@ nav a:hover {
     border-radius: 8px;
     border: 2px solid #cccccc;
     margin-top: 10px;
+    padding: 5px;
 }
 
 .tabla-bonita {
@@ -109,6 +111,7 @@ nav a:hover {
     max-width: 100%;
     border-radius: 8px;
     border: 1px solid #cccccc;
+    margin: 10px;
 }
 
 footer {
