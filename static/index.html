@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Sebastián Villegas Rodríguez</title>
+    <link rel="stylesheet" href="stylees.css">
+    <link rel="icon" type="image/jpeg" href="imagenes/SebastianVillegas.jpeg">
 </head>
 <body>
 <header>
@@ -14,15 +16,15 @@
         <a href="hobbies.html">Hobbies</a>
         <a href="https://github.com/sebastiangoood/Portafolio-SebastianVillegas" target="_blank">GitHub</a>
     </nav>
-    <img src="imagenes/sebastianVillegas.jpeg" alt="Foto de Sebastián Villegas Rodríguez" width="250">
+    <img class="foto-perfil" src="imagenes/SebastianVillegas.jpeg" alt="Foto de Sebastián Villegas Rodríguez">
 </header>
-<main>
-    <section>
+<main id="contenido-principal">
+    <section id="sobre-mi" class="tarjeta">
         <h2>Sobre mí</h2>
         <p>Mi nombre es <strong>Sebastián Villegas Rodríguez</strong>. Actualmente estudio <em>Ingeniería en Software</em> y estoy por iniciar el quinto semestre.</p>
         <p>Me considero una persona responsable, honesta y con muchas ganas de aprender. Me interesa seguir mejorando mis habilidades en programación, desarrollo web y creación de sistemas.</p>
     </section>
-    <section>
+    <section id="informacion-personal" class="tarjeta">
         <h2>Información personal</h2>
         <ul>
             <li><strong>Nombre:</strong> Sebastián Villegas Rodríguez</li>
@@ -32,9 +34,9 @@
             <li><strong>Teléfono:</strong> 6441942009</li>
         </ul>
     </section>
-    <section>
+    <section id="historial" class="tarjeta">
         <h2>Historial académico y laboral</h2>
-        <table border="1">
+        <table class="tabla-bonita">
             <thead>
             <tr>
                 <th>Tipo</th>
@@ -66,7 +68,7 @@
             </tbody>
         </table>
     </section>
-    <section>
+    <section class="tarjeta destacado">
         <h2>Habilidades técnicas</h2>
         <ul>
             <li>HTML básico</li>
@@ -76,7 +78,7 @@
             <li>Desarrollo de proyectos escolares de software</li>
         </ul>
     </section>
-    <section>
+    <section class="tarjeta">
         <h2>Habilidades personales</h2>
         <ol>
             <li>Responsabilidad</li>
@@ -86,7 +88,7 @@
             <li>Atención al cliente</li>
         </ol>
     </section>
-    <section>
+    <section class="tarjeta">
         <h2>Proyectos realizados</h2>
         <article>
             <h3>Página web básica en HTML</h3>
@@ -110,9 +112,10 @@
         </article>
     </section>
 </main>
-<footer>
+<footer id="contacto">
     <p>Portafolio personal de Sebastián Villegas Rodríguez.</p>
     <p>Correo: sebastian.villegas262778@potros.itson.edu.mx</p>
 </footer>
+
 </body>
 </html>
