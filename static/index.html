@@ -8,24 +8,49 @@
     <link rel="icon" type="image/jpeg" href="imagenes/SebastianVillegas.jpeg">
 </head>
 <body>
+
 <header>
     <h1>Portafolio Personal</h1>
     <h2>Sebastián Villegas Rodríguez</h2>
+
     <nav>
         <a href="index.html">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#historial">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="hobbies.html">Hobbies</a>
+        <a href="gustos.html">Contacto</a>
         <a href="https://github.com/sebastiangoood/Portafolio-SebastianVillegas" target="_blank">GitHub</a>
     </nav>
-    <img class="foto-perfil" src="imagenes/SebastianVillegas.jpeg" alt="Foto de Sebastián Villegas Rodríguez">
 </header>
+
 <main id="contenido-principal">
-    <section id="sobre-mi" class="tarjeta">
+
+    <section id="sobre-mi" class="tarjeta seccion-completa">
         <h2>Sobre mí</h2>
-        <p>Mi nombre es <strong>Sebastián Villegas Rodríguez</strong>. Actualmente estudio <em>Ingeniería en Software</em> y estoy por iniciar el quinto semestre.</p>
-        <p>Me considero una persona responsable, honesta y con muchas ganas de aprender. Me interesa seguir mejorando mis habilidades en programación, desarrollo web y creación de sistemas.</p>
+
+        <img id="foto-sobre-mi" class="foto-perfil" src="imagenes/SebastianVillegas.jpeg" alt="Foto de Sebastián Villegas Rodríguez">
+
+        <p>
+            Mi nombre es <strong>Sebastián Villegas Rodríguez</strong>. Actualmente estudio
+            <em>Ingeniería en Software</em> y estoy por iniciar el quinto semestre.
+        </p>
+
+        <p>
+            Me considero una persona responsable, honesta y con muchas ganas de aprender.
+            Me interesa seguir mejorando mis habilidades en programación, desarrollo web,
+            bases de datos y creación de sistemas.
+        </p>
+
+        <p>
+            También me gusta competir, aprender cosas nuevas y esforzarme para mejorar
+            tanto en mis estudios como en mis actividades personales.
+        </p>
     </section>
+
     <section id="informacion-personal" class="tarjeta">
         <h2>Información personal</h2>
+
         <ul>
             <li><strong>Nombre:</strong> Sebastián Villegas Rodríguez</li>
             <li><strong>Carrera:</strong> Ingeniería en Software</li>
@@ -34,8 +59,23 @@
             <li><strong>Teléfono:</strong> 6441942009</li>
         </ul>
     </section>
-    <section id="historial" class="tarjeta">
+
+    <section id="habilidades" class="tarjeta destacado">
+        <h2>Habilidades técnicas</h2>
+
+        <ul>
+            <li>HTML básico</li>
+            <li>CSS básico</li>
+            <li>Programación en Java</li>
+            <li>Bases de datos con MySQL</li>
+            <li>Uso básico de Git y GitHub</li>
+            <li>Desarrollo de proyectos escolares de software</li>
+        </ul>
+    </section>
+
+    <section id="historial" class="tarjeta seccion-completa">
         <h2>Historial académico y laboral</h2>
+
         <table class="tabla-bonita">
             <thead>
             <tr>
@@ -44,22 +84,26 @@
                 <th>Descripción</th>
             </tr>
             </thead>
+
             <tbody>
             <tr>
                 <td>Académico</td>
                 <td>ITSON</td>
                 <td>Estudiante de Ingeniería en Software.</td>
             </tr>
+
             <tr>
                 <td>Académico</td>
                 <td>Universidad</td>
                 <td>Próximo a iniciar quinto semestre.</td>
             </tr>
+
             <tr>
                 <td>Laboral</td>
                 <td>Atención al cliente</td>
                 <td>Experiencia tratando con personas y brindando servicio.</td>
             </tr>
+
             <tr>
                 <td>Laboral</td>
                 <td>Lavado de carros</td>
@@ -68,18 +112,10 @@
             </tbody>
         </table>
     </section>
-    <section class="tarjeta destacado">
-        <h2>Habilidades técnicas</h2>
-        <ul>
-            <li>HTML básico</li>
-            <li>Programación en Java</li>
-            <li>Bases de datos con MySQL</li>
-            <li>Uso básico de Git y GitHub</li>
-            <li>Desarrollo de proyectos escolares de software</li>
-        </ul>
-    </section>
+
     <section class="tarjeta">
         <h2>Habilidades personales</h2>
+
         <ol>
             <li>Responsabilidad</li>
             <li>Honestidad</li>
@@ -88,31 +124,54 @@
             <li>Atención al cliente</li>
         </ol>
     </section>
-    <section class="tarjeta">
+
+    <section id="proyectos" class="tarjeta seccion-completa">
         <h2>Proyectos realizados</h2>
-        <article>
-            <h3>Página web básica en HTML</h3>
-            <p>Proyecto donde practiqué la estructura básica de una página web utilizando etiquetas HTML.</p>
-        </article>
-        <article>
-            <h3>Sistema en Java</h3>
-            <p>Proyecto escolar desarrollado con programación orientada a objetos.</p>
-        </article>
-        <article>
-            <h3>Base de datos en MySQL</h3>
-            <p>Proyecto donde trabajé con tablas, consultas, relaciones y manejo de información.</p>
-        </article>
-        <article>
-            <h3>Proyecto de facturación</h3>
-            <p>Sistema relacionado con ventas, facturas y manejo de información fiscal.</p>
-        </article>
-        <article>
-            <h3>Chat con sockets</h3>
-            <p>Proyecto de comunicación entre computadoras utilizando sockets.</p>
-        </article>
+
+        <div class="grid-proyectos">
+
+            <article class="proyecto">
+                <h3>Página web básica en HTML</h3>
+                <p>
+                    Proyecto donde practiqué la estructura básica de una página web
+                    utilizando etiquetas HTML.
+                </p>
+            </article>
+
+            <article class="proyecto">
+                <h3>Sistema en Java</h3>
+                <p>
+                    Proyecto escolar desarrollado con programación orientada a objetos.
+                </p>
+            </article>
+
+            <article class="proyecto">
+                <h3>Base de datos en MySQL</h3>
+                <p>
+                    Proyecto donde trabajé con tablas, consultas, relaciones y manejo de información.
+                </p>
+            </article>
+
+            <article class="proyecto">
+                <h3>Proyecto de facturación</h3>
+                <p>
+                    Sistema relacionado con ventas, facturas y manejo de información fiscal.
+                </p>
+            </article>
+
+            <article class="proyecto">
+                <h3>Chat con sockets</h3>
+                <p>
+                    Proyecto de comunicación entre computadoras utilizando sockets.
+                </p>
+            </article>
+
+        </div>
     </section>
+
 </main>
-<footer id="contacto">
+
+<footer id="contacto-footer">
     <p>Portafolio personal de Sebastián Villegas Rodríguez.</p>
     <p>Correo: sebastian.villegas262778@potros.itson.edu.mx</p>
 </footer>
